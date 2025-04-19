@@ -17,7 +17,7 @@ connectToDatabase()
 const app = express()
 
 app.use(cors({   // eta vercel frontend domain
-    origin: "https://ems-frontend-vert.vercel.app",
+    origin: "https://nowfrontend.vercel.app",
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
