@@ -20,7 +20,7 @@ app.use(cors({   // eta vercel frontend domain
     origin: "https://nowfrontend.vercel.app",
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
+   // allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
 app.use(express.json()) 
